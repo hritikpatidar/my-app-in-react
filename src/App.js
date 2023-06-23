@@ -14,6 +14,7 @@ function App() {
   }
   return (
     <div className="App">
+      <h1>FONCTIONAL COMPONENT</h1>
         <h1>{name}</h1>
         <p>hello,good morning!</p>
         <button onClick={ (e)=>{ change(e)} }>click me</button>

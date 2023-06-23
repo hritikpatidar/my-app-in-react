@@ -12,12 +12,13 @@ export default class ComponentDidMount extends React.Component{
     }
     componentDidMount(){
         this.setState({name:"anil"});
-        //console.warn("componentDidMount");
+        console.warn("componentDidMount");
     }
     render(){
-        //console.warn("render")
+        console.warn("render")
         return( 
             <div>
+                <h1>CLASS COMPONENT</h1>
                 <h1>hello {this.state.name} constructorDidMount </h1>
             </div>
         )

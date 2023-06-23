@@ -14,6 +14,7 @@ export default class EventHandling extends React.Component{
     render(){
         return(
             <div>
+                <h1>CLASS COMPONENT</h1>
                 <h1>Event Handling {this.state.name}</h1>
                 <button onClick= { ()=>{ this.eventHandling1() } }>Event Handling</button>
             </div>

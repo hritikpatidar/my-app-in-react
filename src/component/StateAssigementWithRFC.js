@@ -1,5 +1,6 @@
 import React,{useState } from 'react'
 
+
 export default function StateAssigementWithRFC() {
     //1. state/Hooks
     const [data, setData] = useState({
@@ -15,12 +16,7 @@ export default function StateAssigementWithRFC() {
 
     let handalSubmit = (e) => {
         e.preventDefault();
-        // console.log(name);
-        // console.log(email);
-        // console.log(password);
-        console.log(data.name);
-        console.log(data.email);
-        console.log(data.password);
+        
     }
     //console.log('data', data)
 
@@ -41,13 +37,15 @@ export default function StateAssigementWithRFC() {
                 <button type="button" onClick={ (e)=>{ submit(e) } }>submit</button>
             </form> */}
             <h1>GET THE VALUE IN FUNCTIONAL COMPONENT</h1>
-            <form onSubmit={(e) => { handalSubmit(e) }}>
+            <form id='my_form' onSubmit={(e) => { handalSubmit(e) }}>
                 <label htmlFor="examleName">name </label>
                 <input type="text" id="examleName" name="name" value={data.name} onChange={(e) => { handalChange(e) }} placeholder="enter name" /><br /><br />
                 <label htmlFor="examleEmail">email </label>
                 <input type="email" id="examleEmail" name="email" value={data.email} onChange={(e) => { handalChange(e) }} placeholder="enter email" /><br /><br />
                 <label htmlFor="examlePassword">password </label>
                 <input type="password" id="examlePassword" name="password" value={data.password} onChange={(e) => { handalChange(e) }} placeholder="enter password" /><br /><br />
+                <label htmlFor="examlePassword1">Current password </label>
+                <input type="password" id="examlePassword1" name="password" value={data.password} onChange={(e) => { handalChange(e) }} placeholder="enter Current password" /><br /><br />
                 <button type="submit" >submit</button>
             </form>
 

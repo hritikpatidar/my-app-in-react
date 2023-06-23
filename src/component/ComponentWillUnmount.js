@@ -11,11 +11,13 @@ export default class ComponentWillUnmount extends React.Component{
 
     componentWillUnmount(){
         this.setState({toggle:!this.state.toggle})
+        //console.log("unmount")
     }
    
     render(){
         return(
             <div>
+                <h1>CLASS COMPONENT</h1>
                <h1>ComponentWillUnmount</h1>
                {
                    this.state.toggle ?

@@ -22,6 +22,7 @@ export default class ComponentDidUpdate extends React.Component{
     render(){
         return(
             <div>
+                <h1>CLASS COMPONENT</h1>
                 <h1>{this.state.name + this.state.age}</h1>
                 
                 <button onClick={ ()=>{ this.componentDidMount() } }>Update</button>

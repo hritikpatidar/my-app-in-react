@@ -13,33 +13,38 @@ import ComponentWillUnmount from './component/ComponentWillUnmount';
 import Hooks from './component/Hooks';
 import StateAssigementWithRFC from './component/StateAssigementWithRFC';
 import StateAssigementWithRCC from './component/StateAssigementWithRCC';
+import { CRUDTodoList } from './component/CRUDTodoList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <StateAssigementWithRCC />
-    <hr/>
+    <hr />
     <StateAssigementWithRFC />
-    <hr/>
+    <hr />
     <App />
-    <hr/>
+    <hr />
     <Incriment />
-    <hr/>
+    <hr />
     <ClassComponent />
-    <hr/>
+    <hr />
     <State />
-    <hr/>
+    <hr />
     <HideAndShow />
-    <hr/>
+    <hr />
     <EventHandling />
-    <hr/>
+    <hr />
     <ComponentDidMount />
-    <hr/>
+    <hr />
     <ComponentDidUpdate />
-    <hr/>
+    <hr />
     <ComponentWillUnmount />
-    <hr/>
+    <hr />
     <Hooks />
+    <hr />
+    <CRUDTodoList />
+    <hr />
+
   </React.StrictMode>
 );
 

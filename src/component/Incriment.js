@@ -17,6 +17,7 @@ export default class Incriment extends React.Component {
     render() {
         return (
             <div>
+                <h1>CLASS COMPONENT</h1>
                 <h1>Count :- {this.state.count}</h1>
                 <button onClick={ ()=>{ this.incriment() } } >Incriment</button>
             </div>

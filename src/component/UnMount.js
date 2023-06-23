@@ -8,6 +8,7 @@ export default class UnMount extends React.Component {
     render() {
         return (
             <div>
+                <h1>CLASS COMPONENT</h1>
                 <ul>
                     <li>name:ritik</li>
                     <li>email:hritikpatidar@gmail.com</li>

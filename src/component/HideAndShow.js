@@ -18,6 +18,7 @@ export default class HideAndShow extends React.Component{
     render(){
         return(
             <div>
+                <h1>CLASS COMPONENT</h1>
                 {
                     this.state.name ?
                     <h1>Hide and Show</h1>

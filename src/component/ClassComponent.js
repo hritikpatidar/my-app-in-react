@@ -14,6 +14,7 @@ export default class ClassComponent extends React.Component{
     render(){
         return(
             <React.Fragment>
+                <h1>CLASS COMPONENT</h1>
                 <h1>hello {this.state.name}</h1>
                 <button onClick={ ()=>{ this.changeName() } }>change Name</button>
             </React.Fragment>

@@ -14,6 +14,7 @@ export default function Hooks(){
     //return statement/jsx 
     return(
         <div>
+            <h1>FUNTIONAL COMPONENT</h1>
             <h1>Ritik {number}</h1>
             <button onClick={ ()=>{ changeName() }}>change name</button>
             
