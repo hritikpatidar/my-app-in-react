@@ -23,6 +23,7 @@ export const CRUDTodoList = () => {
         newArray[index] = value;
         setTodoList(newArray);
         setEdit(false);
+        setValue("");
     };
     const handleEdit = (index, item) => {
         setEdit(true);
